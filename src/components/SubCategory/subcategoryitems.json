@@ -1,0 +1,32 @@
+ [
+    {
+        "img": "https://static.biano.cz/i/categoryMenu/200-108/99/7c/73/f91e1acd62092f1ae89a6401eada3a84.webp",
+        "name": "Rozkládací",
+        "id": "1"
+    },
+    {
+        "img": "https://static.biano.cz/i/filterRelation/144-144/12/bc/a6/c320dbee3628fe5ac06600e13ef6f506.webp",
+        "name": "Šedé",
+        "id": "2"
+    },
+    {
+        "img": "https://static.biano.cz/i/filterRelation/144-144/91/fd/cc/1a88bf84c3a1e8cafcbbb5b2f68d0b72.webp",
+        "name": "Moderní",
+        "id": "3"
+    },
+    {
+        "img": "https://static.biano.cz/i/filterRelation/144-144/0b/13/26/c87ca7904c25ad249f32aa6af74ce0ba.webp",
+        "name": "Skandinávské",
+        "id": "4"
+    },
+    {
+        "img": "https://static.biano.cz/i/filterRelation/144-144/ac/65/28/384c39076d8d0278ba9a475c907a06c5.webp",
+        "name": "Kožené",
+        "id": "5"
+    },
+    {
+        "img": "https://static.biano.cz/i/filterRelation/144-144/81/a7/6c/56aff1339f6dcd54d74a5018b206df91.webp",
+        "name": "Retro",
+        "id": "6"
+    }
+]

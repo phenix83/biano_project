@@ -1,0 +1,49 @@
+.btn-group {
+    max-width: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 146px;
+    max-height: 42px;
+    border: 1px solid #EAEFF9;
+    font-size: 14px;
+    line-height: 26px;
+    color: #616A92;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.btn.active {
+    background-color: #616A92;
+    color: #FFFFFF;
+    border: 1px solid #EAEFF9;
+}
+
+.btn:first-child {
+    border-radius: 50px 0px 0px 50px;
+}
+
+.btn:last-child {
+    border-radius: 0px 50px 50px 0px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.fa-regular {
+    color: #F58A8A;
+}
+
+@media only screen and (max-width: 576px) {
+    .btn {
+        font-size: 12px;
+    }
+
+    .fa-regular {
+        margin-right: 8px;
+    }
+}

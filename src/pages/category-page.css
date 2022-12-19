@@ -1,0 +1,27 @@
+.wrapper {
+    margin-top: 32px;
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 900px;
+    }  
+}
+
+@media only screen and (max-width: 768px) {
+    .left-menu {
+        display: none;
+    }    
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 460px;
+    }  
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        max-width: 380px;
+    }  
+}
