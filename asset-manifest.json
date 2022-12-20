@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/phenix83/biano_project/static/css/main.bcb043f8.css",
-    "main.js": "/phenix83/biano_project/static/js/main.2ebdef56.js",
-    "index.html": "/phenix83/biano_project/index.html",
-    "main.bcb043f8.css.map": "/phenix83/biano_project/static/css/main.bcb043f8.css.map",
-    "main.2ebdef56.js.map": "/phenix83/biano_project/static/js/main.2ebdef56.js.map"
+    "main.css": "/biano_project/static/css/main.bcb043f8.css",
+    "main.js": "/biano_project/static/js/main.2ebdef56.js",
+    "index.html": "/biano_project/index.html",
+    "main.bcb043f8.css.map": "/biano_project/static/css/main.bcb043f8.css.map",
+    "main.2ebdef56.js.map": "/biano_project/static/js/main.2ebdef56.js.map"
   },
   "entrypoints": [
     "static/css/main.bcb043f8.css",
