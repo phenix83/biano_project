@@ -15,6 +15,13 @@ const CategoryPage = () => {
                     <LeftMenu/>
                 </div>                
                 <div className="col-12 col-lg-9 col-md-9 col-sm-12 main-content">
+                    <div className="sofas">                        
+                        <a href='@'>
+                            <i className="fa fa-angle-left"></i>
+                            Sedací soupravy
+                        </a>                        
+                        <div className="divider"></div>
+                    </div>
                     <SubCategoryList data={data}/>
                     <GoodsList products={products}/>
                 </div>                

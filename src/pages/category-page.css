@@ -2,6 +2,16 @@
     margin-top: 32px;
 }
 
+.sofas {
+    display: none;
+}
+
+.sofas a{
+    font-size: 12px;
+    color: #A0AEBD;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 992px) {
     .container {
         max-width: 900px;
@@ -11,7 +21,21 @@
 @media only screen and (max-width: 768px) {
     .left-menu {
         display: none;
-    }    
+    }
+
+    .wrapper {
+        margin-top: 24px;
+    }
+
+    .sofas {
+        display: block;
+    }
+
+    .divider {
+        height: 1px;
+        background-color: #EAEFF9;
+        margin: 22px 0 22px 0;
+    }
 }
 
 @media only screen and (max-width: 480px) {
