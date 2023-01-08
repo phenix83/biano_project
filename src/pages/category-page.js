@@ -23,11 +23,19 @@ const CategoryPage = () => {
                         <div className="divider"></div>
                     </div>
                     <SubCategoryList data={data}/>
+                    <div className="sum-products">
+                        Zobrazeno {SumProducts} produktů podle <span>Doporučené</span>
+                    </div>
                     <GoodsList products={products}/>
                 </div>                
             </div>            
         </div>
     )
 }
+
+
+let SumProducts = products.length;
+
+console.log(SumProducts);
 
 export default CategoryPage;

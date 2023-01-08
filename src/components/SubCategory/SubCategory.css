@@ -21,7 +21,7 @@
 .subcat-item {
     max-width: 130px;
     width: 100%;
-    min-width: 62px;
+    /* min-width: 62px; */
     /* max-height: 115px; */
     min-height: 68px;
     display: flex;
@@ -69,6 +69,7 @@
     .subcat-item-img-box {
         max-width: 50px;
         width: 100%;
+        min-width: 50px;
         min-height: 42px;
         box-shadow: 0px 5px 15px #AFB3C84D;
         border-radius: 10px;

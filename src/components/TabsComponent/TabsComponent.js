@@ -7,8 +7,7 @@ const Tabs = () => {
         <div className="btn-group">            
             <NavLink to="/" className="btn" >
                 Kategorie
-            </NavLink>
-        
+            </NavLink>        
             <NavLink to="/favourites" className="btn">                    
                 <i className="fa-regular fa-heart"></i>
                 Oblíbené                    

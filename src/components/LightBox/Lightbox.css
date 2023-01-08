@@ -15,8 +15,7 @@
     height: 85vh;
     width: 85vw;
     border-radius: 35px;
-    opacity: 1;
-    /* position: relative; */    
+    opacity: 1; 
 }
 
 .lightbox-header {
@@ -27,6 +26,10 @@
     height: 100%;
     overflow-y: auto;
     max-width: 100%;
+}
+
+.lightbox-header-small {
+    display: none;
 }
 
 .close-button {
@@ -69,13 +72,19 @@
     }
 
     .lightbox-header {
+        display: none;
+    }
+
+    .lightbox-header-small {
         width: 100%;
-        height: 54px;
         border-bottom: 1px solid #EAEFF9;
         margin-bottom: 16px;
-        position: static;
+        position: sticky;
+        top: 0;
+        background-color: #fff;
         display: flex;
         padding-bottom: 15px;
+        z-index: 2;
     }
 
     .close-button {

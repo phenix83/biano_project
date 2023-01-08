@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+.sum-products {
+    display: none;
+}
+
 @media only screen and (max-width: 992px) {
     .container {
         max-width: 900px;
@@ -36,6 +40,29 @@
         background-color: #EAEFF9;
         margin: 22px 0 22px 0;
     }
+}
+
+@media only screen and (max-width: 640px) {
+    .sum-products {
+        display: block;
+        font-size: 12px;
+        color: #A0AEBD;
+        text-decoration: none;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .sum-products span {
+        color: #F58A8A;
+        text-decoration: underline;
+        letter-spacing: 0px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .sum-products {
+        margin-top: 10px;
+    }  
 }
 
 @media only screen and (max-width: 480px) {

@@ -93,8 +93,14 @@
     }
 
     .goods-list {
-        margin-top: 40px;    
+        margin-top: 30px;
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .goods-list {
+        margin-top: 10px;
     }
 }
 
@@ -107,7 +113,6 @@
     .goods-list {
         /* grid-template-columns: 1fr 1fr; */
         gap: 20px;
-        margin-top: 30px;
     }
 }
 
