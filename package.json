@@ -1,5 +1,5 @@
 {
-  "homepage": "https://phenix83.github.io/biano_project",
+  "homepage": "https://phenix83.github.io/biano_project/",
   "name": "biano_project",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "gh-pages": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "SET NODE_OPTIONS=--openssl-legacy-provider && npm run build",
     "deploy": "SET NODE_OPTIONS=--openssl-legacy-provider && gh-pages -d build",
     "build": "react-scripts build",
