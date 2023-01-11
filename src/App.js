@@ -15,6 +15,7 @@ function App() {
           <Route path="/favourites" element={<FavouriretePage/>}/>
           <Route path="/recomended" element={<RecomendedPage/>}/>
           <Route path="*" element={<NoPageFound/>}/>
+          <Route path="biano_project" element={<CategoryPage/>}/>
         </Routes>
       </BrowserRouter>
     </div>
