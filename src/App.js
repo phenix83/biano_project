@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CategoryPage from "./pages/category-page";
 import FavouriretePage from "./pages/favourite-page";
 import RecomendedPage from "./pages/recomended-page";
+import { NoPageFound } from "./pages/NoPageFound";
 import './App.css';
 
 function App() {  
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<CategoryPage/>}/>
           <Route path="/favourites" element={<FavouriretePage/>}/>
           <Route path="/recomended" element={<RecomendedPage/>}/>
+          <Route path="*" element={<NoPageFound/>}/>
         </Routes>
       </BrowserRouter>
     </div>

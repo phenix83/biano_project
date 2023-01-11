@@ -23,7 +23,7 @@ const Lightbox = ({isOpen, toggleIsOpen, Wrapper = 'div'}) => {
                     <div className="lightbox-content">
                         <div className="lightbox-header lightbox-header-small">
                             <button className='close-button' onClick={toggleIsOpen}>                                
-                                <i claclassNamess="fa-thin fa-xmark"></i>
+                                <i className="fa-thin fa-xmark"></i>
                             </button>
                             <div className="lightbox-choose-product">
                                 <span>Vyberte produkt</span>
