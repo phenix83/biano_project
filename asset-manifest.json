@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/biano_project/static/css/main.bcb043f8.css",
-    "main.js": "/biano_project/static/js/main.2ebdef56.js",
+    "main.css": "/biano_project/static/css/main.8d92043d.css",
+    "main.js": "/biano_project/static/js/main.78a8ad2e.js",
     "index.html": "/biano_project/index.html",
-    "main.bcb043f8.css.map": "/biano_project/static/css/main.bcb043f8.css.map",
-    "main.2ebdef56.js.map": "/biano_project/static/js/main.2ebdef56.js.map"
+    "main.8d92043d.css.map": "/biano_project/static/css/main.8d92043d.css.map",
+    "main.78a8ad2e.js.map": "/biano_project/static/js/main.78a8ad2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcb043f8.css",
-    "static/js/main.2ebdef56.js"
+    "static/css/main.8d92043d.css",
+    "static/js/main.78a8ad2e.js"
   ]
 }
